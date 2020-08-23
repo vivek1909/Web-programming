@@ -4,7 +4,7 @@ function validate() {
   var password = document.getElementById("password").value;
   if (username == "web programming" && password == "web101") {
     alert("Login successfully");
-    window.location = "loginsuccess.html";
+    window.location = "dashboard.html";
     return false;
   } else {
     attempt--;
